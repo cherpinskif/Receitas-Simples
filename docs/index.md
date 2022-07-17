@@ -1,37 +1,164 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/6cd0359720.js" crossorigin="anonymous"></script>
 
-You can use the [editor on GitHub](https://github.com/cherpinskif/Receitas-Simples/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<!--NavBar-->
+<nav class="navbar navbar-expand-lg" style="background-color: #f1ede7;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html"><img src="" alt="">RECEITAS SIMPLES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Salada.html">Salada</a></li>
+                <li><a class="dropdown-item" href="Almoco.html">Almoço</a></li>
+                <li><a class="dropdown-item" href="Sobremesa.html">Sobremesa</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Categorias.html">Explore mais</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Aleatorio.html">Aleatório</a>
+          </li>
+        </ul>
+            <a href="Contato.html">
+            <button class="btn btn-warning" type="button" style="background-color:#f1ede7; border-color: #c6c0b7;color:black">Contato</button>
+            </a>
+      </div>
+    </div>
+</nav>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<!--Divisão do site-->
+<div class="container text-center">
+   
+    <!--Texto Topo Página--> 
+    <div class="row">
+        <div class="col ">            
+            <div class="fs-1">Receita Simples</div>
+            <div class="fs-4">Seu novo lugar para encontrar receitas simples e deliciosas</div>
+        </div>
+    </div>
+           
+    <!--Banner e setas-->
+    <div class="row">
+        <div class="col-2 col-sm-2 align-self-center">
+            <button class="btn" type="button" style="background-color: #f1ede7;">
+            <i class="fa-solid fa-arrow-left-long fs-3"></i>
+            </button>
+        </div>
+        <div class="col-8 col-sm-8 ">
+            <img src="https://picsum.photos/id/63/800/300" class="img-fluid" alt="...">
+        </div>
+        <div class="col-2 col-sm-2 align-self-center ">
+            <button class="btn" type="button" style="background-color: #f1ede7;">
+            <i class="fa-solid fa-arrow-right-long fs-3"></i>
+            </button>
+        </div>
+    </div>
+            
+    <!--Texto Meio da Página-->
+    <div class="row">
+        <div class="col-sm">
+            <a class="text-decoration-none text-black" href="Categorias.html">
+            <div class="fs-1">Categorias</div>
+            </a>
+            <div class="fs-4">O que você quer comer?</div>
+        </div>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <!--Categorias-->
+    <div class="row ">
+        
+            <!--Categoria 1-->
+            <div class="col-lg-4 col-sm-1 col-md-4 d-flex justify-content-center gy-2">
+                <a href="Salada.html">
+                <div class="card bg-dark text-white text-align-center" style="width:18rem">
+                    <img src="https://picsum.photos/id/292/200/200" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <h5 class="card-title">Salada</h5>
+                    <p class="card-text">Saladas gostosas e nutritivas aqui</p>
+                    </div>
+                </div>
+                </a>
+            </div>
 
-- Bulleted
-- List
+            <!--Categoria 2-->
+            <div class="col-lg-4 col-sm-1 col-md-4  d-flex justify-content-center gy-2"> 
+                <a href="Almoco.html">
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <img src="https://picsum.photos/id/835/200" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                    <h5 class="card-title">Almoço</h5>
+                    <p class="card-text">Clique e veja seu próximo almoço</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+        
+            <!--Categoria 3-->
+            <div class="col-lg-4 col-sm-1 col-md-4 d-flex justify-content-center gy-2">
+                <a href="Sobremesa.html">
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <img src="https://picsum.photos/id/1080/200/200" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                    <h5 class="card-title">Sobremesa</h5>
+                    <p class="card-text">Um doce para finalizar as refeições</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+    </div>
+    
+</div>
+  
+<!--Footer-->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top position-sticky">
+        <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">© 2022 Receita Simples</span>
+        </div>
+        </footer>
+</div>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cherpinskif/Receitas-Simples/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.js">
+</script>
+</body>
+</html>
